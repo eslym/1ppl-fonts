@@ -14,6 +14,7 @@ for (const font of fonts.scanSync()) {
 
 export default defineConfig({
   base: "./",
+  publicDir: 'public',
   build: {
     rollupOptions: {
       input: entries,
