@@ -1,0 +1,40 @@
+/*!
+ * Twemoji (Emoji images) license notice
+ *
+ * This site uses Twemoji graphics from the Twemoji project (https://github.com/jdecked/twemoji).
+ *
+ * Twemoji graphics are licensed under the Creative Commons Attribution 4.0 International (CC-BY 4.0).
+ * You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+ *
+ * Attribution:
+ *   Twemoji — Copyright © Twitter, Inc. and other contributors.
+ *
+ * License:
+ *   CC-BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+ */
+
+@font-face {
+	font-family: 'Twemoji';
+	src:
+		url('./twemoji-otsvg.woff2') format('woff2'),
+		url('./twemoji-otsvg.ttf') format('truetype');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Twemoji';
+	src:
+		url('./twemoji-sbix.woff2') format('woff2'),
+		url('./twemoji-sbix.ttf') format('truetype');
+	font-display: swap;
+}
+
+@supports font-tech(color-COLRv1) {
+	@font-face {
+		font-family: 'Twemoji';
+		src:
+			url('./twemoji-colr.woff2') format('woff2'),
+			url('./twemoji-colr.ttf') format('truetype');
+		font-display: swap;
+	}
+}
